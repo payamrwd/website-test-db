@@ -1,24 +1,14 @@
 {
-  "tasks": [
-    {
-      "title": "hello iran",
-      "description": "from mohsen",
-      "id": 5
-    },
-    {
-      "title": "hi",
-      "description": "everybody",
-      "id": 6
-    },
-    {
-      "title": "sos",
-      "description": "2901",
-      "id": 7
-    },
-    {
-      "title": "title task new 2",
-      "description": "description task new 2",
-      "id": 8
-    }
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
